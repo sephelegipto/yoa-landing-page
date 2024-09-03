@@ -2268,7 +2268,7 @@ progress {
     background-color: #fff;
     border-color: #9ac79c;
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(52, 142, 56, 0.25)
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 230, 0.25)
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -2445,7 +2445,7 @@ textarea.form-control-lg {
 .form-select:focus {
     border-color: #9ac79c;
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(52, 142, 56, 0.25)
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 230, 0.25)
 }
 
 .form-select[multiple],
@@ -8375,7 +8375,7 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-    background-color: #E8F5E9 !important
+    background-color: #dab4ae !important
 }
 
 /* .bg-dark {
