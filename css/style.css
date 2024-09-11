@@ -2,7 +2,7 @@
 :root {
     --primary: #A02334;
     --secondary: #525368;
-    --light: #E8F5E9;
+    --light: #fff;
     --dark: #000;
 }
 
@@ -180,8 +180,7 @@ h6,
     width: 3rem;
     height: 3rem;
     border-radius: 3rem;
-    background-color: var(--primary);
-    border: 10px solid var(--primary);
+
 }
 
 @media (max-width: 768px) {
@@ -269,7 +268,7 @@ h6,
 }
 
 .service-item:hover .service-text {
-    background: rgba(147, 148, 115, .6);
+    background: rgba(148, 59, 24, 0.1);
 }
 
 .service-item .service-text h4,
@@ -283,6 +282,7 @@ h6,
 
 .service-item:hover .service-text p {
     color: var(--light);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .service-item .service-text .btn-square {
@@ -722,4 +722,39 @@ h6,
 
 .collapse {
     transition: height 0.35s ease;
+}
+
+.carousel-caption .text-start h1 {
+    text-align: left;
+}
+
+.custom-padding {
+    padding: 100px;
+    /* Adjust the padding as needed */
+}
+
+.custom-padding h1 {
+    margin-bottom: 10px;
+    /* Reduce the space between the h1 elements */
+}
+
+.carousel-caption {
+    padding-bottom: 50px;
+    /* Add more padding to the bottom if needed */
+}
+
+.offshore {
+    color: #952b1b;
+}
+
+.about-para {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.counter-up::after {
+    content: '+';
+    margin-left: 5px;
+    font-size: inherit;
+    color: inherit;
 }

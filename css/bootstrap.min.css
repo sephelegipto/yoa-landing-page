@@ -527,12 +527,14 @@ progress {
 .display-4 {
     font-size: calc(1.475rem + 2.7vw);
     font-weight: 700;
-    line-height: 1.2
+    line-height: 1.2;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 1200px) {
     .display-4 {
-        font-size: 3.5rem
+        font-size: 3.5rem;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -551,12 +553,60 @@ progress {
 .display-6 {
     font-size: calc(1.375rem + 1.5vw);
     font-weight: 700;
-    line-height: 1.2
+    line-height: 1.2;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 1200px) {
     .display-6 {
-        font-size: 2.5rem
+        font-size: 2.5rem;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.display-9 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+@media (min-width: 1200px) {
+    .display-9 {
+        font-size: 2.5rem;
+
+    }
+}
+
+.display-7 {
+    font-size: calc(1.125rem + 1vw);
+    /* Reduced both the base size and the vw scaling */
+    font-weight: 700;
+    line-height: 1.2;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 1200px) {
+    .display-7 {
+        font-size: 2rem;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        /* Reduced the font size for large screens */
+    }
+}
+
+.display-8 {
+    font-size: calc(0.875rem + 0.8vw);
+    /* Reduced both base size and vw scaling */
+    font-weight: 700;
+    line-height: 1.2;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 1200px) {
+    .display-8 {
+        font-size: 1.5rem;
+        /* Reduced the font size for large screens */
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -8190,11 +8240,17 @@ fieldset:disabled .btn {
 }
 
 .fs-5 {
-    font-size: 1.25rem !important
+    font-size: 1.25rem !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .fs-6 {
-    font-size: 1rem !important
+    font-size: 1rem !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.fs-7 {
+    font-size: 1.25rem !important;
 }
 
 .fst-italic {
@@ -8315,7 +8371,7 @@ fieldset:disabled .btn {
 }
 
 .text-light {
-    color: #E8F5E9 !important
+    color: #fff !important
 }
 
 .text-dark {
