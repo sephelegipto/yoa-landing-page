@@ -550,6 +550,7 @@ progress {
     }
 }
 
+
 .display-6 {
     font-size: calc(1.375rem + 1.5vw);
     font-weight: 700;
@@ -575,6 +576,40 @@ progress {
     .display-9 {
         font-size: 2.5rem;
 
+    }
+}
+
+.display-10 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #134578;
+    text-transform: uppercase;
+
+}
+
+@media (min-width: 1200px) {
+    .display-10 {
+        font-size: 1.5rem;
+        color: #134578;
+        text-transform: uppercase;
+    }
+}
+
+.display-12 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #A02334;
+    text-transform: uppercase;
+
+}
+
+@media (min-width: 1200px) {
+    .display-12 {
+        font-size: 2rem;
+        color: #A02334;
+        text-transform: uppercase;
     }
 }
 
@@ -608,6 +643,10 @@ progress {
         /* Reduced the font size for large screens */
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
+}
+
+.aboutmecontent {
+    text-align: justify;
 }
 
 .list-unstyled {
@@ -5897,7 +5936,7 @@ fieldset:disabled .btn {
 
 .btn-close:focus {
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(52, 142, 56, 0.25);
+    box-shadow: 0 0 0 .25rem rgba(148, 59, 24, 0.1);
     opacity: 1
 }
 
@@ -8375,7 +8414,7 @@ fieldset:disabled .btn {
 }
 
 .text-dark {
-    color: #0F4229 !important
+    color: #000 !important
 }
 
 .text-white {
