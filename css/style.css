@@ -1,4 +1,8 @@
 /********** Template CSS **********/
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --primary: #A02334;
     --secondary: #525368;
@@ -167,7 +171,7 @@ h6,
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(148, 59, 24, 0.1);
+    background: rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -228,7 +232,7 @@ h6,
 /*** Facts & Quote ***/
 .facts,
 .quote {
-    background: rgba(148, 59, 24, 0.1);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 
@@ -549,7 +553,7 @@ h6,
 }
 
 .carousel-caption .text-start h1 {
-    text-align: left;
+    text-align: center;
 }
 
 .custom-padding {
@@ -729,4 +733,27 @@ h6,
     padding-bottom: 50px;
     background-color: #f9f9f9;
     text-align: center;
+}
+
+.background-light {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Light background with opacity */
+    padding: 20px;
+    /* Adjust padding as needed */
+    border-radius: 10px;
+    /* Optional: Add rounded corners */
+    position: relative;
+    /* Allows absolute positioning */
+    left: 50%;
+    /* Start from the left of the container */
+    right: 50%;
+    /* End on the right of the container */
+    margin-left: -50vw;
+    /* Move left half of the viewport width */
+    margin-right: -50vw;
+    /* Move right half of the viewport width */
+    width: 100vw;
+    /* Full viewport width */
+    z-index: 1;
+    /* Ensures it's above other elements */
 }

@@ -4,6 +4,10 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -618,13 +622,13 @@ progress {
     /* Reduced both the base size and the vw scaling */
     font-weight: 700;
     line-height: 1.2;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
 }
 
 @media (min-width: 1200px) {
     .display-7 {
         font-size: 2rem;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
         /* Reduced the font size for large screens */
     }
 }
@@ -634,19 +638,21 @@ progress {
     /* Reduced both base size and vw scaling */
     font-weight: 700;
     line-height: 1.2;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
 }
 
 @media (min-width: 1200px) {
     .display-8 {
         font-size: 1.5rem;
         /* Reduced the font size for large screens */
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
     }
 }
 
 .aboutmecontent {
     text-align: justify;
+    line-height: 2;
+    font-family: 'Lucida Console', Monaco, monospace;
 }
 
 .list-unstyled {
