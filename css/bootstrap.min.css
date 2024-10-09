@@ -645,12 +645,12 @@ progress {
 
 @media (min-width: 1200px) {
     .display-7 {
-        font-size: 4rem;
+        font-size: 3rem;
         /* Larger size for bigger screens */
     }
 
     .display-8 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         /* Adjusted size for bigger screens */
     }
 }
@@ -3869,7 +3869,7 @@ fieldset:disabled .btn {
 
 .btn-link {
     font-weight: 400;
-    color: #348E38;
+    color: #000;
     text-decoration: none
 }
 
@@ -8492,6 +8492,10 @@ fieldset:disabled .btn {
 
 .bg-dark {
     background-color: #A02334 !important
+}
+
+.bg-dirtywhite {
+    background-color: #F5F5F5 !important;
 }
 
 .bg-body {

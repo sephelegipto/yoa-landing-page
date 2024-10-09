@@ -171,7 +171,7 @@ h6,
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .5);
     z-index: 1;
 }
 
@@ -232,7 +232,7 @@ h6,
 /*** Facts & Quote ***/
 .facts,
 .quote {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, .5);
 }
 
 
@@ -269,12 +269,12 @@ h6,
 
 .service-item .service-text {
     background: #FFFFFF;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .6);
+    box-shadow: 0 0 45px rgba(0, 0, 0, .5);
     transition: .3s;
 }
 
 .service-item:hover .service-text {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .service-item .service-text h4,
@@ -492,7 +492,7 @@ h6,
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: var(--light);
+    color: #000;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
