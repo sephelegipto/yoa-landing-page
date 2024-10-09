@@ -619,35 +619,39 @@ progress {
 
 .display-7 {
     font-size: calc(1.125rem + 1vw);
-    /* Reduced both the base size and the vw scaling */
+    /* Responsive font size */
     font-weight: 700;
     line-height: 1.2;
-
 }
 
+.display-8 {
+    font-size: calc(1rem + 0.5vw);
+    /* Slightly smaller and responsive for secondary headings */
+    line-height: 1.3;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .display-7 {
+        font-size: 1rem;
+        /* Smaller size for small screens */
+    }
+
+    .display-8 {
+        font-size: .8rem;
+        /* Smaller size for secondary heading */
+    }
+}
 
 @media (min-width: 1200px) {
     .display-7 {
         font-size: 4rem;
-
-        /* Reduced the font size for large screens */
+        /* Larger size for bigger screens */
     }
-}
 
-
-*/ .display-8 {
-    font-size: calc(0.875rem + 0.8vw);
-    /* Reduced both base size and vw scaling */
-    font-weight: 700;
-    line-height: 1.2;
-
-}
-
-@media (min-width: 1200px) {
     .display-8 {
-        font-size: 1.5rem;
-        /* Reduced the font size for large screens */
-
+        font-size: 2.5rem;
+        /* Adjusted size for bigger screens */
     }
 }
 
